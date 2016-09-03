@@ -4,7 +4,7 @@
 <title>Online Page</title>
 <script>
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').then(function() { console.log("Offline Service Worker Registered"); });
+    navigator.serviceWorker.register('sw.js').then(function() { console.log("Offline Service Worker Registered"); });
 }
 </script>
 <link href="style.css" rel="stylesheet">
