@@ -13,9 +13,9 @@ self.addEventListener('install', event => {
             return cache.addAll([
                 OFFLINEURL,
                 "trex.gif"
-            ])
+            ]);
         })
-    };
+    );
 });
 
 self.addEventListener('activate', event => {
