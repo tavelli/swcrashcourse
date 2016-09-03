@@ -12,7 +12,8 @@ self.addEventListener('install', event => {
         caches.open(assets).then(function(cache) {
             return cache.addAll([
                 OFFLINEURL,
-                "trex.gif"
+                "trex.gif",
+                "style.css"
             ]);
         })
     );
