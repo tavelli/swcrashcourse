@@ -1,6 +1,6 @@
 const SW_VERSION = "1";
 
-const assets = 'swcrashcourse-assets-' + SW_VERSION;
+const assets = 'swcrashcourse-offfline-' + SW_VERSION;
 const OFFLINEURL = "offline.html";
 
 var expectedCaches = [

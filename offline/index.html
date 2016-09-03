@@ -4,14 +4,16 @@
 <title>Online Page</title>
 <script>
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').then(function(reg) {
-    }).catch(function(error) {});
+    navigator.serviceWorker.register('/sw.js').then(function() { console.log("Offline Service Worker Registered"); });
 }
 </script>
 <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<h2>Pretty Amazing Little Online App</h2>
-<div style="height:300px;width:600px;background-color:#eee;border:1px solid #ccc;margin: 0 auto;"></div>
+<h2>Pretty Amazing Little Web App</h2>
+<div style="height:300px;width:600px;background-color:#eee;border:1px solid #ccc;margin: 0 auto;padding:2em 0 0 0;">
+<input type="text"/>
+<button>Send message to nowhere</button>
+</div>
 </body>
 </html>
